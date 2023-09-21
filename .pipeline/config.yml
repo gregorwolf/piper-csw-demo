@@ -4,6 +4,7 @@ general:
   cfSpace: 'qa'
   cfCredentialsId: 'cfAuthentification'
   cfServiceInstance: 'abap-qa'
+  cfServiceKeyName: 'sap_com_0510_jenkins'
 stages:
   Clone Repositories:
     repositories: 'repositories.yml'
