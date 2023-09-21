@@ -21,3 +21,5 @@ stages:
 steps:
   abapEnvironmentPullGitRepo:
     repositoryName: '/CSW/DEMO'
+  abapEnvironmentRunATCCheck:
+    cfServiceKeyName: 'sap_com_0901'
