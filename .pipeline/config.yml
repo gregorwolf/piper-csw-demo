@@ -7,7 +7,7 @@ general:
   cfServiceKeyName: 'sap_com_0510_jenkins'
 stages:
   Clone Repositories:
-    repositories: 'repositories.yml'
+#    repositories: 'repositories.yml'
     strategy: 'Pull'
   ATC:
     # In order to be executed, the ATC stage needs at least one configuration entry
@@ -17,3 +17,7 @@ stages:
     # In order to be executed, the AUnit stage needs at least one configuration entry
     # If the AUnit stage should not be executed, delete the whole section
     execute: stage
+
+steps:
+  abapEnvironmentPullGitRepo:
+    repositoryName: '/CSW/DEMO'
