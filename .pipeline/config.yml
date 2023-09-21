@@ -1,5 +1,5 @@
 general:
-  cfApiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+  cfApiEndpoint: 'https://api.cf.eu10-004.hana.ondemand.com'
   cfOrg: 'csw-qa-aws'
   cfSpace: 'qa'
   cfCredentialsId: 'cfAuthentification'
