@@ -23,3 +23,5 @@ steps:
     repositoryName: '/CSW/DEMO'
   abapEnvironmentRunATCCheck:
     cfServiceKeyName: 'sap_com_0901'
+  abapEnvironmentRunAUnitTest:
+    cfServiceKeyName: 'sap_com_0735'
